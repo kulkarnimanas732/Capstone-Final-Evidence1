@@ -1,0 +1,10 @@
+
+Threshold: 0.90
+Decision: auto_approve
+Reason: all confidence at/above threshold, reviewer agrees, integration clean
+
+Threshold: 0.96
+Decision: human_review
+Reason: fields_below_threshold=['coverage_limit', 'deductible', 'endorsements', 'exclusions', 'policy_type', 'premium_amount']
+
+DEMONSTRATION ONLY: synthetic routing input; not a full policy extraction.

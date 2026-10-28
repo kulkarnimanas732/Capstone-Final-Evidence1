@@ -1,0 +1,13 @@
+Mortgage acceptance-test count verification
+
+README.md line 10 states: "all 28 acceptance tests".
+Command `.venv/bin/pytest --collect-only -q tests/` collected 25 tests.
+Test counts by file:
+- test_us01_schema.py: 5
+- test_us02_pipeline.py: 6
+- test_us03_prompts.py: 6
+- test_us04_validator.py: 8
+Total: 25 tests.
+
+The full test run completed with 25 passed.
+The reason for the difference between the README's 28 and the 25 collected tests has not been established. No tests were added or modified.

@@ -1,0 +1,5 @@
+Python version:
+Python 3.13.0
+
+Operating system:
+Linux 8a3ef6ff988703169e61bf7277b05de5f89c7dbd-666bf9b494-64rsx 6.6.97+ #1 SMP Fri Aug 22 11:53:37 UTC 2025 x86_64 GNU/Linux

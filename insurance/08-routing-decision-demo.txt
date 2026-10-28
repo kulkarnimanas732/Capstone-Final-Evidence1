@@ -1,0 +1,24 @@
+DEMONSTRATION ONLY — not a full pipeline run
+[
+  {
+    "confidence_summary": {
+      "coverage_limit": 0.95,
+      "deductible": 0.96,
+      "endorsements": 0.94,
+      "exclusions": 0.93,
+      "policy_type": 0.98,
+      "premium_amount": 0.65
+    },
+    "decision": "human_review",
+    "fields_below_threshold": [
+      "premium_amount"
+    ],
+    "integration_failures": [],
+    "policy_id": "DEMO-POL-LOW-CONFIDENCE",
+    "policy_type": "home",
+    "reason": "fields_below_threshold=['premium_amount']",
+    "reviewer_disagreements": []
+  }
+]
+
+JSON saved to: /workspace/capstone-final-evidence/insurance/08-routing-decision-demo.json

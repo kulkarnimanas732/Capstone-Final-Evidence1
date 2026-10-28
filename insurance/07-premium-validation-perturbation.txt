@@ -1,0 +1,10 @@
+
+BASELINE
+premium_amount=2350.00
+component_sum=2350.00
+validation_result=None
+
+PERTURBED
+premium_amount=2500.00
+component_sum=2350.00
+validation_result=ValidationError(field='premium_amount', observed_value='stated=2500.0, components_sum=2350.0', category='consistency', detected_pattern='premium_does_not_match_components', message='premium_amount is stated as 2500.0 but the sum of premium_components is 2350.0 (delta +150.00). Re-read the document and reconcile: either the stated premium is wrong or one of the components is wrong.')
